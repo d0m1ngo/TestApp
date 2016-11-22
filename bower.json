@@ -1,0 +1,22 @@
+{
+  "name": "testapp",
+  "description": "App for Test",
+  "main": "index.html",
+  "authors": [
+    "gena <zubarik.gena@tut.by>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.8",
+    "ngstorage": "^0.3.11",
+    "ng-dialog": "^0.6.4"
+  }
+}

@@ -1,0 +1,30 @@
+
+<div class="container">
+    <h2>Adding new Store</h2>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-sm-1" for="email">Название:</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" ng-model="main.store.name" id="email" placeholder="Введите название">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-1" for="address">Адрес</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" ng-model="main.store.address" id="address" placeholder="Введите адрес">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-1" >Режим работы</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" ng-model="main.store.mode" id="mode" placeholder="Введите режим работы">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button class="btn btn-primary" ng-click="main.submit(main.store)"> Add NEw</button>
+            </div>
+        </div>
+    </form>
+</div>
